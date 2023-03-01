@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    width: auto;
+    background-color: bisque;
+}
+
+header{
+    height: 30px;
+    background-color: rgb(247, 247, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+
+h1{
+    font-size: 48px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.navlinks{
+    display: flex;
+    gap: 12px;
+
+}
+
+.dropdownContent{
+    position: absolute;
+    background-color: grey;
+    overflow: hidden;
+    max-height: 0px;
+}
